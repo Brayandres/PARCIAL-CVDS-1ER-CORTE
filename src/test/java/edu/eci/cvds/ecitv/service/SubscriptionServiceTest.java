@@ -30,9 +30,9 @@ public class SubscriptionServiceTest {
 
 	@Test
 	public void Calculo18a25Años() {
-		Assert.assertEquals(new BigDecimal(11748.375), service.calculateCost(18, SubscriptionCategory.SILVER));
+		Assert.assertEquals(new BigDecimal(12750), service.calculateCost(18, SubscriptionCategory.SILVER));
 		Assert.assertEquals(new BigDecimal(25500), service.calculateCost(20, SubscriptionCategory.DIAMOND));
-		Assert.assertEquals(new BigDecimal(11748.375), service.calculateCost(25, SubscriptionCategory.SILVER));
+		Assert.assertEquals(new BigDecimal(12750), service.calculateCost(25, SubscriptionCategory.SILVER));
 	}
 
 	@Test
