@@ -3,23 +3,25 @@
 ############################
 
 EDAD => 17 o MENOS AÑOS
-0. Limite Superior: 17        (Valido) [No descuento]
+0. Fuera de Rango: (-44, Diamante)              (Invalido)
+1. Limite inferior: (0, plata)                  (Valida) [No descuento]
+2. Limite Superior: (17, Oro)                   (Valido) [No descuento]
 
 EDAD => 18 - 25 AÑOS
-1. Límite Inferior: 18        (Valido)
-2. Valor Intermedio: 20, 24   (Valido)
-3. Limite Superior: 25        (Valido)
+1. Límite Inferior: (18, Plata)                 (Valido)
+2. Valor Intermedio: (20, Diamante)             (Valido)
+3. Limite Superior: (25, Plata)                 (Valido)
 
 EDAD => 26 - 30 AÑOS
-1. Límite Inferior: 26        (Valido)
-2. Valor Intermedio: 28       (Valido)
-3. Limite Superior: 30        (Valido)
+1. Límite Inferior: (26, Oro)                   (Valido)
+2. Valor Intermedio: (28, Plata)                (Valido)
+3. Limite Superior: (30, Plata)                 (Valido)
 
 EDAD => 31 - 60 AÑOS
-1. Límite Inferior: 31        (Valido)
-2. Valor Intermedio: 40, 50   (Valido)
-3. Limite Superior: 60        (Valido)
+1. Límite Inferior: (31, Diamante)              (Valido)
+2. Valor Intermedio: (40, Oro), (50, )          (Valido)
+3. Limite Superior: (60, Plata)                 (Valido)
 
 EDAD => 60 o MÁS AÑOS
-1. Límite Inferior: 60        (Valido)
-2. Valor Intermedio: 70, 80   (Valido)
+1. Límite Inferior: (60, Oro)                   (Valido)
+2. Valor Intermedio: (70, Plata), (80, Plata)   (Valido)
